@@ -1,0 +1,17 @@
+{
+    "name": "technogames/tienda",
+    "description": "Tienda de videojuegos con MongoDB",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "ext-mongodb": "*",
+        "mongodb/mongodb": "^2.0"
+    },
+    "config": {
+        "platform": {
+            "php": "8.4"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
